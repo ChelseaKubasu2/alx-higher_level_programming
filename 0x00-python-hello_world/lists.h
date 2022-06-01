@@ -1,4 +1,4 @@
-fndef LISTS_H
+:wfndef LISTS_H
 #define LISTS_H
 #include <stddef.h>
 
