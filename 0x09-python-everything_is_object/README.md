@@ -1,0 +1,1 @@
+This repo is used to test the output of different python tasks as executed in the python interpreter.The learner is required to write the answers as required in the txt files, also one requires knowledge in mutable and immutable objects
