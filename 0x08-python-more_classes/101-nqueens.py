@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# 101-nqueens.py
 """Solves the N-queens puzzle.
 Determines all possible solutions to placing N
 N non-attacking queens on an NxN chessboard.
@@ -133,7 +132,3 @@ if __name__ == "__main__":
     solutions = recursive_solve(board, 0, 0, [])
     for sol in solutions:
         print(sol)
-    print("Found %d solutions" % len(solutions))
-
-    sys.exit(0)
-# End of 101-nqueens.py
