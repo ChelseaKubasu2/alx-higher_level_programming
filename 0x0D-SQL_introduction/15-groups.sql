@@ -1,5 +1,9 @@
--- computes the score average of all records in the table
--- result column name should be 'average'
--- database name will be passed as an argument of the mysql command
+-- lists the `score` and number of occurances with each score with 'number'
+-- displays this data sorted by number in descending order
+--
+-- score   number
+-- 10  2
+-- 8   1
 
-SELECT AVG(score) AS 'average' FROM second_table;
+SELECT score, COUNT(score) AS 'number' FROM second_table GROUP BY score ORDER BY number DESC;
+
